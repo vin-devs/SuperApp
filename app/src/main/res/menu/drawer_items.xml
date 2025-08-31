@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/round_home_24"
+        android:id="@+id/navHome"
+        android:title="Home"/>
+    <item
+        android:icon="@drawable/round_apps_24"
+        android:id="@+id/navApps"
+        android:title="Apps"/>
+    <item
+        android:icon="@drawable/round_videogame_asset_24"
+        android:id="@+id/navGames"
+        android:title="Games"/>
+    <item
+        android:icon="@drawable/round_settings_24"
+        android:id="@+id/navSettings"
+        android:title="Settings"/>
+    <item
+        android:icon="@drawable/baseline_login_24"
+        android:id="@+id/navLogin"
+        android:title="Logout"/>
+    <item
+        android:id="@+id/navRate_us"
+        android:icon="@drawable/baseline_star_rate_24"
+        android:title="Rate us" />
+    <item
+        android:icon="@drawable/round_share_24"
+        android:id="@+id/navShare"
+        android:title="Share"/>
+    <item
+        android:id="@+id/navAbout"
+        android:icon="@drawable/baseline_info_24"
+        android:title="About" />
+    <item
+        android:id="@+id/navContact"
+        android:icon="@drawable/baseline_info_24"
+        android:title="Contact Us" />
+
+</menu>

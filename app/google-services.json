@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "264283066990",
+    "project_id": "superapp-5c122",
+    "storage_bucket": "superapp-5c122.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264283066990:android:cefa40323413cc29258c7f",
+        "android_client_info": {
+          "package_name": "com.example.superapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVwHyQjJ8D0GaQc8_sC3rJGuQ9l42D7MU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

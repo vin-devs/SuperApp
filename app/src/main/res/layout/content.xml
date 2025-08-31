@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00F351">
+
+            <ImageButton
+                android:id="@+id/buttonDrawerToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/round_menu_24"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Super Fun App🔥"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:text="@string/logout"
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+        </Toolbar>
+
+        <!-- Hot Fun Apps Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social Fun Apps"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- YouTube Button -->
+            <Button
+                android:id="@+id/youtube_button"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/youtube"
+                android:text="YouTube"
+                android:background="@null"/>
+
+            <!-- TikTok Button -->
+            <Button
+                android:id="@+id/btn_tiktok"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TikTok"
+                android:drawableTop="@drawable/tiktok_icon"
+                android:background="@null"/>
+
+            <!-- Instagram Button -->
+            <Button
+                android:id="@+id/btn_instagram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/instagram"
+                android:text="Instagram"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Facebook Button -->
+            <Button
+                android:id="@+id/btn_facebook"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Facebook"
+                android:drawableTop="@drawable/facebook_svgrepo_com__1_"
+                android:background="@null"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <!-- Twitter Button -->
+            <Button
+                android:id="@+id/btn_twitter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icons8_twitter"
+                android:text="Twitter"
+                android:background="@null"/>
+
+            <!-- Whatsapp Button -->
+            <Button
+                android:id="@+id/btn_whatsapp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icons8_whatsapp"
+                android:text="Whatsapp"
+                android:background="@null"/>
+
+            <Button
+                android:id="@+id/btn_pinterest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/pinterest_svgrepo_com"
+                android:text="Pinterest"
+                android:background="@null"/>
+
+
+        </LinearLayout>
+
+        <!-- Music Fun Apps Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Apps"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Spotify Button -->
+            <Button
+                android:id="@+id/btn_spotify"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icons8_spotify"
+                android:text="Spotify"
+                android:background="@null"/>
+
+            <Button
+                android:id="@+id/btn_apple"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Apple Music"
+                android:textColor="#07E100"
+                android:drawableTop="@drawable/applemusic"
+                android:background="@null"/>
+
+            <!-- BoomPlay Button -->
+            <Button
+                android:id="@+id/btn_BoomPlay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icons8_boomplay"
+                android:text="BoomPlay"
+                android:background="@null"/>
+
+            <Button
+                android:id="@+id/youtubemusic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/youtube_music_song_multimedia_audio_svgrepo_com"
+                android:text="Youtube Music"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <!-- Sports Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- LiveScore Button -->
+            <Button
+                android:id="@+id/btn_Livescore"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/livescore_svgrepo_com"
+                android:text="Livescore"
+                android:background="@null"/>
+
+            <!-- SportPesa Button -->
+            <Button
+                android:id="@+id/btn_Sportpesa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SportPesa"
+                android:drawableTop="@drawable/sportpesa_idmv2xiz87_0"
+                android:background="@null"/>
+
+            <!-- ESPN Button -->
+            <Button
+                android:id="@+id/btn_ESPN"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/espn"
+                android:text="ESPN"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <!-- Games Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Games"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Tetris Game Button -->
+            <Button
+                android:id="@+id/btn_tetris"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/tetris_svgrepo_com__1_"
+                android:text="super Tetris"
+                android:background="@null"/>
+
+            <!-- Ludo Game Button -->
+            <Button
+                android:id="@+id/btn_ludo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ludo Game"
+                android:background="@null"/>
+
+            <!-- Solitaire Button -->
+            <Button
+                android:id="@+id/btn_solitaire"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Solitaire classic"
+                android:background="@null"
+                app:iconTint="#00BCD4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- WordConnect Button -->
+            <Button
+                android:id="@+id/btn_TicTacToe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Word Connect"
+                android:background="@null"/>
+
+            <!-- Water Sort Button -->
+            <Button
+                android:id="@+id/btn_WaterSortPuzzle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Water Sort Puzzle"
+                android:background="@null"/>
+
+            <!-- Pool Pro Button -->
+            <Button
+                android:id="@+id/btn_PoolPro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pool 8 pro"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Word Connect Button -->
+            <Button
+                android:id="@+id/btn_WordConnect"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Word Connect"
+                android:background="@null"/>
+
+            <!-- Merge Cards Button -->
+            <Button
+                android:id="@+id/btn_MergeCards"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Merge Cards"
+                android:background="@null"/>
+
+            <!-- Checkers Button -->
+            <Button
+                android:id="@+id/btn_Checkers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Checkers"
+                android:background="@null"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
